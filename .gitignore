@@ -1,0 +1,80 @@
+# ===============================
+# ENV FILES (VERY IMPORTANT)
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# PYTHON (FastAPI Backend)
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# SQLite / DB
+*.sqlite3
+*.db
+
+# ===============================
+# FASTAPI / UVICORN
+# ===============================
+*.pid
+*.out
+
+# ===============================
+# NEXT.JS (Frontend)
+# ===============================
+node_modules/
+.next/
+out/
+dist/
+
+# Vercel
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# IDE & OS FILES
+# ===============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===============================
+# TEST / CACHE
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# DOCKER (if using)
+# ===============================
+*.env.local
+docker-compose.override.yml
+
+# ===============================
+# OLLAMA
+# ===============================
+ollama.log
